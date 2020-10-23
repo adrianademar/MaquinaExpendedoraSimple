@@ -51,6 +51,10 @@
     public void introducirDinero(int cantidadIntroducida) {
         balanceClienteActual = balanceClienteActual + cantidadIntroducida;
     }
+    public int getDineroAcumulado()
+    {
+        return totalDineroAcumulado;
+    }
 
     /**
      * Imprime un billete para el cliente actual
