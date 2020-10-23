@@ -55,6 +55,11 @@
     {
         return totalDineroAcumulado;
     }
+    public void cambioDePrecio(int precio)
+    {
+        precioBillete = precio;
+    }
+        
 
     /**
      * Imprime un billete para el cliente actual
