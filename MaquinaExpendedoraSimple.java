@@ -59,7 +59,10 @@
     {
         precioBillete = precio;
     }
-        
+    public void reduccionDePrecio(int reduccion)
+    {
+        precioBillete -= reduccion;
+    }  
 
     /**
      * Imprime un billete para el cliente actual
